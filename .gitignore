@@ -1,0 +1,20 @@
+# 构建产物
+bin/
+rader_go/MDK-ARM/rader/
+rader_go/MDK-ARM/*.lst
+rader_go/MDK-ARM/*.log
+rader_go/MDK-ARM/*.uvguix.*
+rader_go/MDK-ARM/DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.dep
+
+# 本地笔记与工具缓存
+note/
+.mimosa/
+
+# CubeMX 可重新生成的厂商库（克隆后用 rader.ioc 生成）
+rader_go/Drivers/
+rader_go/Middlewares/
